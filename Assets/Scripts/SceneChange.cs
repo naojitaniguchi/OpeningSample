@@ -20,5 +20,10 @@ public class SceneChange : MonoBehaviour
         {
             SceneManager.LoadScene(SceneName);
         }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene(SceneName);
+        }
     }
 }
